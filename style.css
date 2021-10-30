@@ -64,3 +64,12 @@ body {
     background-color: black;
     color: white;
   }
+
+  /* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
