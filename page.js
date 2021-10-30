@@ -1,4 +1,10 @@
 function myFunction() {
-    var element = document.body;
-    element.classList.toggle("dark-mode");
-} 
+    var body = document.body;
+    var div = document.getElementById('background');
+    var pa = document.getElementById('pa');
+
+    body.classList.toggle("body-dmode");
+    div.classList.toggle("square-dmode");
+    pa.classList.toggle("dmode-text");
+
+}

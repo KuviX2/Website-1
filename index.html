@@ -1,13 +1,21 @@
 <!DOCTYPE html>
+
 <meta charset="utf-8">
 <link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" type="text/css" href="button.css" />
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@900&display=swap" rel="stylesheet">
+<script src="page.js"></script>
 
-<title>Rhylee Zoudlik</title>
+<div class="dmode" style="position: absolute; right: 20px; top: 20px;">
+  <label class="switch">
+  <input type="checkbox" onclick="myFunction()">
+  <span class="slider round"></span>
+  </label>
+</div>
 
 <header>
-  <h1 class="title-text">
+  <h1>
     <a id="home" href="/" class="title">Rhylee Zoudlik</a>
   </h1>
 </header>
@@ -15,12 +23,6 @@
 <hr>
 
 <div id="background">
-<div style="position: absolute; right: 20px; top: 20px;">
-    <label class="switch">
-    <input type="checkbox">
-    <span class="slider round"></span>
-    </label>
-</div>
   <p id="about-me">About me:</p>
   <p>I play and attempt to make videogames</p>
   <p>Check out my <a href="https://www.youtube.com/channel/UCAoi5HyzvPo6hNuCcvT7miA" target="_blank">Youtube Channel</a></p>
