@@ -8,28 +8,28 @@
 }
 
 html {
-    font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 p {
-    margin-left: 15%;
-    line-height: 120%;
+  margin-left: 15%;
+  line-height: 120%;
 }
 
 header {
-    font-family: 'Zen Old Mincho', Georgia, serif;
-    font-size: 25px;
-    margin-top: -25px;
-    text-align: center;
+  font-family: 'Zen Old Mincho', Georgia, serif;
+  font-size: 25px;
+  margin-top: -25px;
+  text-align: center;
 }
 
 hr {
-    margin-top: -30px;
-    width: 400px;
+  margin-top: -30px;
+  width: 400px;
 }
 
 a {
-    color:#6884FF;
+  color:#6884FF;
 }
 
 .body-dmode {
@@ -58,19 +58,19 @@ div {
 }
 
 #home:hover {
-    color: #6884FF;
+  color: #6884FF;
 }
 
 #pfp {
-    height: 194px;
-    width: 194px;
-    margin-left: 15%;
-    line-height: 120%;
+  height: 194px;
+  width: 194px;
+  margin-left: 15%;
+  line-height: 120%;
 }
 
 #about-me   {
-    font-size: 40px;
-    margin-bottom: 20px;
-    padding-top: 40px;
-    font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 20px;
+  padding-top: 40px;
+  font-weight: bold;
 }
