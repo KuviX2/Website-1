@@ -1,0 +1,54 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    margin-left: 15%;
+    line-height: 120%;
+}
+
+header {
+    font-family: 'Zen Old Mincho', Georgia, serif;
+    font-size: 25px;
+    margin-top: -25px;
+    text-align: center;
+}
+
+hr {
+    margin-top: -30px;
+    width: 400px;
+}
+
+a {
+    color:#6884FF;
+}
+
+#background {
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: -19px;
+    background-color: #e0e0e0;
+}
+
+#home:hover {
+    color: #6884FF;
+}
+
+#pfp {
+    height: 194px;
+    width: 194px;
+    margin-left: 15%;
+    line-height: 120%;
+}
+
+#about-me   {
+    font-size: 40px;
+    margin-bottom: 20px;
+    padding-top: 40px;
+    font-weight: bold;
+}
+
+.title:link, .title:visited, .title:hover {
+    color: black;
+    text-decoration: none;
+}
