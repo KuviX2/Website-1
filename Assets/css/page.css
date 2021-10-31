@@ -1,12 +1,3 @@
-
-.dmode {
-    background-color: inherit;
-}
-
-.dmode-text  {
-    color: white;
-}
-
 html {
   font-family: 'Open Sans', sans-serif;
 }
@@ -30,20 +21,6 @@ hr {
 
 a {
   color:#6884FF;
-}
-
-.body-dmode {
-    background-color: #181a1b;
-    color: white;
-}
-
-.square-dmode {
-    background-color: #2A2D2F;
-    color: white;
-}
-
-div {
-    background-color: #e0e0e0;
 }
 
 .title:link, .title:visited {
