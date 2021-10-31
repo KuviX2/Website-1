@@ -1,6 +1,6 @@
 body {
   color: #eee;
-  background: #121212;
+  background: #181a1b;
 }
 
 body a {
@@ -13,4 +13,11 @@ body a {
 
 #home {
   color: white;
+}
+
+body:hover {
+    background-color: #181a1b;
+    -webkit-transition: background-color 200ms linear;
+    -ms-transition: background-color 200ms linear;
+    transition: background-color 200ms linear;
 }
