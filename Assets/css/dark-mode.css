@@ -3,12 +3,8 @@ body {
   background: #181a1b;
 }
 
-body a {
-  color: #809fff;
-}
-
 #background {
-    background-color: #2A2D2F;
+    background: #2A2D2F;
 }
 
 #home {
@@ -20,4 +16,11 @@ body:hover {
     -webkit-transition: background-color 200ms linear;
     -ms-transition: background-color 200ms linear;
     transition: background-color 200ms linear;
+}
+
+#background:hover {
+    background-color: #2A2D2F;
+    -webkit-transition: background-color 2000ms linear;
+    -ms-transition: background-color 2000ms linear;
+    transition: background-color 2000ms linear;
 }
