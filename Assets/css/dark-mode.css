@@ -1,5 +1,5 @@
 body {
-  color: #eee;
+  color: #fff;
   background: #181a1b;
 }
 
@@ -27,8 +27,5 @@ body:hover {
 
 #page-top {
 	background: #2A2D2F;
-	position:fixed;
-	top: 0;
-	height: 40%;
-	width: 100%
+
 }

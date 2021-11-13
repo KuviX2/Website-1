@@ -1,19 +1,75 @@
+p { 
+	font-family: 'Lato', sans-serif;
+}
+
+body {
+    padding:0;
+    margin:0;
+}
+
+html {
+    padding:0;
+    margin:0;
+}
+
 #page-top {
 	position:fixed;
 	top: 0;
-	height: 40%;
+	height: 248px;
 	width: 100%
 }
 
 #main {
-	    
+	background: #181a1b;
+	margin-top: 14%;
+	margin-bottom: 1;
+	margin-right: 10px;
+	float: below;
+}
+
+#game {
+	margin-top: 210px;
+	position: absolute;
+	transform: translate(0, -50%);
+
+}
+
+#game-image {
+	border-radius: 7%;
+}
+
+#foo {
+	font-family: Lato;
+	text-decoration: none;
+	color: white;
+	float: right;
+	margin-right: -116px;
+	margin-top: -190px;
+}	
+
+#foo:hover {
+	text-decoration: underline;
+
+}
+
+#creator {
+	margin-top: -127px;
+	margin-right: -145px;
+	float: right;
+}
+
+.title {
+	text-align: center;
+	font-family: Roboto;
+	font-size: 40px;
+	
 }
 
 .header-buttons {
 	background-color: inherit;
 	border: none;
 	color: white;
-	padding: 10px 25px;
+	padding: 0.925% 1.3%;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
@@ -29,14 +85,18 @@
 	background-color: #3A3F42;
 }
 
-p {
-	text-align: center;
-	font-family: Roboto;
-	font-size: 40px;
-	
+.seperator {
+	height: 186px;
+	width: 2px;
+	background: #fff;
+	float: right;
+	margin-left: 40px;
+	margin-top: -19px;
 }
 
-body {
-    padding:0;
-    margin:0;
+.download {
+	background: #303435;
+	margin-right: -130px;
+	padding: 10px;
+	margin-top: 78px;
 }
