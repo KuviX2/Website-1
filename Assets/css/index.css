@@ -28,9 +28,10 @@ html {
 }
 
 #game {
-	margin-top: 210px;
+	margin-top: 170px;
 	position: absolute;
 	transform: translate(0, -50%);
+	margin-left: 40%;
 
 }
 
@@ -38,16 +39,16 @@ html {
 	border-radius: 7%;
 }
 
-#foo {
+#game-link {
 	font-family: Lato;
 	text-decoration: none;
 	color: white;
 	float: right;
-	margin-right: -116px;
+	margin-right: -230px;
 	margin-top: -190px;
 }	
 
-#foo:hover {
+#game-link:hover {
 	text-decoration: underline;
 
 }
@@ -56,6 +57,11 @@ html {
 	margin-top: -127px;
 	margin-right: -145px;
 	float: right;
+}
+
+.youtube-squares {
+	position: fixed;	
+	margin: 30px;
 }
 
 .title {
@@ -96,7 +102,20 @@ html {
 
 .download {
 	background: #303435;
-	margin-right: -130px;
-	padding: 10px;
+	margin-right: -141px;
+	padding: 17px;
 	margin-top: 78px;
+}
+
+#windows-icon {
+	height: 23px;
+	width: 23px;
+	position: absolute;
+	margin-top: -180px;
+	margin-left: 459px;
+	
+}
+
+.filter-white{
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(199deg) brightness(107%) contrast(103%);
 }
