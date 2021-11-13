@@ -24,3 +24,11 @@ body:hover {
     -ms-transition: background-color 2000ms linear;
     transition: background-color 2000ms linear;
 }
+
+#page-top {
+	background: #2A2D2F;
+	position:fixed;
+	top: 0;
+	height: 40%;
+	width: 100%
+}
