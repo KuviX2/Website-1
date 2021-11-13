@@ -1,0 +1,42 @@
+#page-top {
+	position:fixed;
+	top: 0;
+	height: 40%;
+	width: 100%
+}
+
+#main {
+	    
+}
+
+.header-buttons {
+	background-color: inherit;
+	border: none;
+	color: white;
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	position: absolute;
+	top: 5%;
+	right: 1%;
+	border-radius: 8px;
+	cursor: pointer;
+}
+
+.header-buttons:hover {
+	background-color: #3A3F42;
+}
+
+p {
+	text-align: center;
+	font-family: Roboto;
+	font-size: 40px;
+	
+}
+
+body {
+    padding:0;
+    margin:0;
+}
