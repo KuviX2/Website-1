@@ -10,6 +10,21 @@ p {
 	width: 100%
 }
 
+#about-me {
+	position: absolute;
+	top: 32%;
+	left: 30%;
+	font-family: 'Lato', sans-serif;
+	font-size: 27px;
+}
+
+#description {
+	position: absolute;
+	top: 133px;
+	left: 30%;
+	font-size: 20px;
+}
+
 #main {
 	position: fixed;
 	top: 248px;
@@ -20,15 +35,45 @@ p {
 
 }
 
-#game {
+#ytube-container {
 	position: absolute;
 	top: 100px;
-	left: 50%;
+	left: 39%;
 	transform: translate(-50%, 0%);
-	width: 1100px;
-	height: 240px;
+	width: 490px;
+	height: 200px;
 
 }
+
+#youtube-img {
+	position: absolute;
+	height: 170px;
+	width: 170px;
+	border-radius: 7%;
+}
+
+#ytube-text {
+	position: absolute;
+	left: 200px;
+	width: 293px;
+	font-size: 32px;
+	color: white;	
+}
+
+#ytube-text:hover {
+	text-decoration: underline;
+}
+
+
+#game-container {
+	position: absolute;
+	top: 100px;
+	right: 8%;
+	transform: translate(-50%, 0%);
+	width: 490px;
+	height: 170px;
+}
+
 
 #game-image {
 	border-radius: 7%;
@@ -57,9 +102,13 @@ p {
 	height: 21px;
 }
 
-.youtube-squares {
-	position: fixed;	
-	margin: 30px;
+#windows-icon {
+	position: absolute;
+	top: 10px;
+	left: 463px;
+	height: 23px;
+	width: 23px;
+	
 }
 
 .title {
@@ -98,7 +147,7 @@ p {
 	background: #fff;
 }
 
-.download {
+#download-button {
 	position: absolute;
 	top: 105px;
 	left: 254px;
@@ -106,13 +155,12 @@ p {
 	padding: 17px;
 }
 
-#windows-icon {
+#ytube-button {
 	position: absolute;
-	top: 10px;
-	left: 463px;
-	height: 23px;
-	width: 23px;
-	
+	top: 105px;
+	left: 200px;
+	background: #303435;
+	padding: 17px;
 }
 
 .filter-white{
