@@ -1,0 +1,31 @@
+body {
+  color: #fff;
+  background: #181a1b;
+}
+
+#background {
+    background: #2A2D2F;
+}
+
+#home {
+  color: white;
+}
+
+body:hover {
+    background-color: #181a1b;
+    -webkit-transition: background-color 200ms linear;
+    -ms-transition: background-color 200ms linear;
+    transition: background-color 200ms linear;
+}
+
+#background:hover {
+    background-color: #2A2D2F;
+    -webkit-transition: background-color 2000ms linear;
+    -ms-transition: background-color 2000ms linear;
+    transition: background-color 2000ms linear;
+}
+
+#page-top {
+	background: #2A2D2F;
+
+}
